@@ -6,11 +6,9 @@ script:
 
 deploy:
   provider: releases
-  api_key: "**"
+  api_key: "0b01592457a6a13e685ba37f248292c2f86710cb"
   file: .
   skip_cleanup: true
   on:
     tags: false
-    branches:
-      only:
-        - main
+    branch: main
