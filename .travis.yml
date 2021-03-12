@@ -6,7 +6,7 @@ script:
 
 deploy:
   provider: releases
-  api_key: "0b01592457a6a13e685ba37f248292c2f86710cb"
+  api_key: "30a2cc85bde5155af70f7025a842cece40d65027"
   file: .
   skip_cleanup: true
   on:
