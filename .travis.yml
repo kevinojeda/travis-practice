@@ -3,3 +3,11 @@ node_js:
   - 15.11.0
 script:
   - node index.js
+
+deploy:
+  provider: releases
+  api_key: "0b01592457a6a13e685ba37f248292c2f86710cb"
+  file: .
+  skip_cleanup: true
+  on:
+    tags: true
